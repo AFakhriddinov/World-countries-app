@@ -8,7 +8,7 @@ describe('Navigation', () => {
     const page = renderer.create(
       <Router>
         <Nav />
-      </Router>
+      </Router>,
     );
     const componentTree = page.toJSON();
     expect(componentTree).toMatchSnapshot();

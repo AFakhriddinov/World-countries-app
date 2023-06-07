@@ -29,7 +29,7 @@ describe('<HomePage />', () => {
       .create(
         <MemoryRouter>
           <HomePage />
-        </MemoryRouter>
+        </MemoryRouter>,
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
@@ -39,7 +39,7 @@ describe('<HomePage />', () => {
     render(
       <MemoryRouter>
         <HomePage />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     const images = screen.getAllByRole('link', {
       name: /^test country/i,
@@ -51,7 +51,7 @@ describe('<HomePage />', () => {
     render(
       <MemoryRouter>
         <HomePage />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     const search = screen.getByPlaceholderText('Search a country here');
