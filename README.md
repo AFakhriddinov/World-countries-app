@@ -69,7 +69,7 @@ Visit live demo [here](https://world-countries-app1.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Presentation <a name="live-demo"></a>
+### Presentation <a name="presentation"></a>
 
 Watch video presentation [here](https://screenrec.com/share/Vh2Dd0Jr9b)
 
