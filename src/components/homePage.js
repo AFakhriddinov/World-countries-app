@@ -25,13 +25,13 @@ const HomePage = () => {
         type="text"
         value={searchState}
         onChange={renderSearch}
-        placeholder="&#x1F50D; Search a country here"
+        placeholder="Search a country here"
         className="search-input"
       />
       <div className="status-bar">
         <h2 className="country-status">Stats by Country</h2>
       </div>
-      <div className="content">
+      <div className="div">
         {mappedState.map((country) => (
           <Link
             to={`/countries/${country.name}`}
