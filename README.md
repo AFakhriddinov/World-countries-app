@@ -112,7 +112,7 @@ npm run test
 
 ### Deployment
 
-You can deploy this project on GitHub Pages
+This project was deployed on www.netlify.com
 
 ## 👥 Authors <a name="authors"></a>
 
